@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: url("/assets/img/background.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: orange;
+}
+
+#finish {
+    font-size: 160%;
+    font-weight: bold;
+}
+
+p {
+    padding: 30px;
+}
+.grid {
+    height: 320px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#rules {
+    font-size: 120%;
+    border-right: 1px solid black;
+    padding: 30px;
+}
+
+#retry {
+    font-size: 140%;
+    width: 150px;
+    height: 50px;
+    display: none;
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px outset black;
+}
+
+.flag {
+    background-color: orange;
+}
+
+.boom{
+    background-color: red;
+}
+
+.checked.valid {
+    background-color: #007180;
+}

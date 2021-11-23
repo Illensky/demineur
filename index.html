@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Démineur</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+<h1>Jeu du démineur</h1>
+<div id="container">
+    <div id="rules">
+        <p>
+            Le but du jeu est de découvrir toutes les cases libres sans faire exploser les mines.
+        </p>
+        <p>
+            Pour libérer une case, faire un clic gauche (clic normal).
+        </p>
+        <p>
+            Pour marquer une mine, faire un clic droit, qui fera apparaître un drapeau '🚩'.
+        </p>
+        <p>
+            Le compteur '💣' en haut indique le nombre de mines qu'il reste à trouver.
+        </p>
+    </div>
+    <div id="gameContainer">
+        <p id="bombCounter"></p>
+
+        <div class="grid">
+
+        </div>
+        <p id="finish"></p>
+        <button id="retry">Retry</button>
+    </div>
+
+</div>
+</body>
+<script src="assets/JS/demineur.js"></script>
+</html>
